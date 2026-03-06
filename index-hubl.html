@@ -889,6 +889,12 @@
                                         <ol start="3">
                                             <li>キャンバスの任意の場所をマウス・指でなぞると、文字が表示されます。</li>
                                         </ol>
+                                        <aside class="note-card" role="note">
+                                            <h5>⚠ 注意</h5>
+                                            <ul>
+                                                <li>ミャンマー語・カンナダ語・クメール語では、しゃべり描きの結合文字が正しく表示されない場合があります。翻訳文やトランスクリプトでは正常に表示されます。</li>
+                                            </ul>
+                                        </aside>
                                     </div>
                                 </div>
                                 <div class="step-with-image">
@@ -1632,7 +1638,7 @@
                                     <p>翻訳元と翻訳先の2言語の組み合わせ。画面上部の言語選択メニューで設定します。</p>
                                     <ul>
                                         <li>しゃべり描き®とトランスクリプトで共通の設定を使用します。</li>
-                                        <li>対応言語は全30言語です（<a href="#supported-languages">翻訳言語一覧</a>）。</li>
+                                        <li>対応言語は全37言語です（<a href="#supported-languages">翻訳言語一覧</a>）。</li>
                                         <li>言語を切り替えると、左右のマイクに割り当てられる認識言語も変わります（<a href="#select-language">言語を選ぶ</a>）。</li>
                                     </ul>
                                 </div>
@@ -1950,23 +1956,24 @@
                         <h4 id="supported-languages">翻訳言語</h4>
                         <div class="procedure-steps">
                             <div class="step-text">
-                                <p>対応言語は全30言語です。地域ごとの一覧は以下をご確認ください。</p>
+                                <p>対応言語は全37言語です。地域ごとの一覧は以下をご確認ください。</p>
                                 <dl class="spec-list">
                                     <dt>東アジア</dt>
                                     <dd>韓国語（韓国）、中国語[簡体]、日本語（日本）、モンゴル語（モンゴル）</dd>
                                     <dt>東南アジア</dt>
-                                    <dd>インドネシア語（インドネシア）、タイ語（タイ）、タガログ語（フィリピン）、ベトナム語（ベトナム）、マレー語（マレーシア）、ラオ語（ラオス）</dd>
+                                    <dd>インドネシア語（インドネシア）、クメール語（カンボジア）※1※2、タイ語（タイ）、タガログ語（フィリピン）、ベトナム語（ベトナム）、マレー語（マレーシア）、ミャンマー語（ミャンマー）※2、ラオ語（ラオス）</dd>
                                     <dt>南アジア</dt>
-                                    <dd>シンハラ語（スリランカ）、タミル語（インド）、ネパール語（ネパール）、ヒンディー語（インド）、ベンガル語（バングラデシュ）</dd>
+                                    <dd>カンナダ語（インド）※2、シンハラ語（スリランカ）、タミル語（インド）、ネパール語（ネパール）、ヒンディー語（インド）、ベンガル語（バングラデシュ）</dd>
                                     <dt>西アジア（中東含む）</dt>
                                     <dd>トルコ語（トルコ）</dd>
                                     <dt>ヨーロッパ</dt>
-                                    <dd>オランダ語（オランダ）、スウェーデン語（スウェーデン）、スペイン語（スペイン）、チェコ語（チェコ）、デンマーク語（デンマーク）、ドイツ語（ドイツ）、ハンガリー語（ハンガリー）、フィンランド語（フィンランド）、ポーランド語（ポーランド）、ポルトガル語（ポルトガル）、ロシア語（ロシア）</dd>
+                                    <dd>オランダ語（オランダ）、スウェーデン語（スウェーデン）、スペイン語（スペイン）、チェコ語（チェコ）、デンマーク語（デンマーク）、ドイツ語（ドイツ）、ハンガリー語（ハンガリー）、フィンランド語（フィンランド）、フランス語（フランス）、ポーランド語（ポーランド）、ポルトガル語（ポルトガル）、ルクセンブルク語（ルクセンブルク）※1、ロシア語（ロシア）</dd>
                                     <dt>北米・南米</dt>
-                                    <dd>英語（アメリカ）、ポルトガル語（ブラジル）</dd>
+                                    <dd>英語（アメリカ）、スペイン語（メキシコ）、フランス語（カナダ）、ポルトガル語（ブラジル）</dd>
                                     <dt>アフリカ</dt>
                                     <dd>アフリカーンス語（南アフリカ）</dd>
                                 </dl>
+                                <p class="note-footnote">※1 音声認識に対応していません<br>※2 しゃべり描きで結合文字が正しく表示されない場合があります</p>
                             </div>
                         </div>
                     </div>
@@ -2097,10 +2104,6 @@
                                             <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
                                         </tr>
                                         <tr>
-                                            <td>base64-arraybuffer</td>
-                                            <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
-                                        </tr>
-                                        <tr>
                                             <td>base64-js</td>
                                             <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
                                         </tr>
@@ -2130,10 +2133,6 @@
                                         </tr>
                                         <tr>
                                             <td>cross-fetch</td>
-                                            <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>css-line-break</td>
                                             <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
                                         </tr>
                                         <tr>
@@ -2385,10 +2384,6 @@
                                             <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
                                         </tr>
                                         <tr>
-                                            <td>html2canvas</td>
-                                            <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
-                                        </tr>
-                                        <tr>
                                             <td>http-proxy-agent</td>
                                             <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
                                         </tr>
@@ -2513,6 +2508,10 @@
                                             <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
                                         </tr>
                                         <tr>
+                                            <td>standard-schema/spec</td>
+                                            <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
+                                        </tr>
+                                        <tr>
                                             <td>socket.io-client</td>
                                             <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
                                         </tr>
@@ -2542,10 +2541,6 @@
                                         </tr>
                                         <tr>
                                             <td>svgdotjs/svg.select.js</td>
-                                            <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>text-segmentation</td>
                                             <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
                                         </tr>
                                         <tr>
@@ -2583,10 +2578,6 @@
                                         <tr>
                                             <td>ungap/structured-clone</td>
                                             <td><a href="https://app.snyk.io/vuln/snyk:lic:ISC" target="_blank" rel="noopener noreferrer">ISC <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>utrie</td>
-                                            <td><a href="https://app.snyk.io/vuln/snyk:lic:MIT" target="_blank" rel="noopener noreferrer">MIT <span class="material-icons" aria-hidden="true">open_in_new</span></a></td>
                                         </tr>
                                         <tr>
                                             <td>uuid</td>
