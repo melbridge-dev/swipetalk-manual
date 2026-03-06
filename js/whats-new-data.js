@@ -18,12 +18,6 @@ const _allWhatsNewData = [
         link: "/use-swipe-talk"
       },
       {
-        heading: "キャンバス画像の保存機能",
-        text: "シート管理エリアから、開いているシートのキャンバスエリアをPNG画像として保存できるようになりました。",
-        image: "https://lp.melbridge.mitsubishielectric.co.jp/hubfs/images/manual/swipeTalk/img-usage-export-1.png",
-        link: "/export-canvas"
-      },
-      {
         heading: "設定メニューの追加",
         text: "しゃべり描きの入力方式（音声入力／キーボード入力）や文字サイズを設定画面から変更できるようになりました。",
         link: "/screen-layout"
