@@ -58,7 +58,7 @@
     const host = window.location.hostname;
     // GitHub Pagesの場合はリポジトリ名をベースパスとして使用
     if (host.endsWith('.github.io')) {
-      return '/manual_swipeTalk_test';
+      return '/manual_swipeTalk_test_old';
     }
     // ローカル開発やその他の環境では空文字
     return '';
@@ -1459,7 +1459,7 @@
             e.stopPropagation();
             const rawAnchor = na.getAttribute('href');
             if (!rawAnchor) return;
-            // BASE_PATHを除去してからハッシュに変換（例: /manual_swipeTalk_test/whats-new → #whats-new）
+            // BASE_PATHを除去してからハッシュに変換（例: /manual_swipeTalk_test_old/whats-new → #whats-new）
             const anchor = stripBasePath(rawAnchor);
             const normalizedAnchor = anchor.startsWith('/') ? '#' + anchor.slice(1) : anchor;
             // 対象セクションを特定して切替（右カラムと同様の挙動）

@@ -21,7 +21,7 @@
       try{
         var path = location.pathname;
         // ホスト名に応じてベースパスを動的判定
-        var base = location.hostname.endsWith('.github.io') ? '/manual_swipeTalk_test' : '';
+        var base = location.hostname.endsWith('.github.io') ? '/manual_swipeTalk_test_old' : '';
 
         // 404.htmlを除去して正規化
         if (path.endsWith('/404.html')) {
@@ -59,7 +59,7 @@
       if (document.documentElement.dataset.showFallback === '1') {
         document.body.style.visibility = 'visible';
         setTimeout(function(){
-          var base = location.hostname.endsWith('.github.io') ? '/manual_swipeTalk_test' : '';
+          var base = location.hostname.endsWith('.github.io') ? '/manual_swipeTalk_test_old' : '';
           location.replace(location.origin + base + '/');
         }, 1500);
       }

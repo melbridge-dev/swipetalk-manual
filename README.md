@@ -2,12 +2,12 @@
 
 ## 環境について
 
-このリポジトリ（manual_swipeTalk_test）は**テスト環境**です。
+このリポジトリ（manual_swipeTalk_test_old）は**テスト環境**です。
 
 ## デプロイフロー
 
 ```
-テスト環境（manual_swipeTalk_test）
+テスト環境（manual_swipeTalk_test_old）
     ↓ 動作確認・修正
     ↓ 完成
     ├→ HubSpot へコピー＆デプロイ
@@ -16,7 +16,7 @@
 
 ### 1. テスト環境で開発・確認
 
-このリポジトリ（manual_swipeTalk_test）で以下を行います：
+このリポジトリ（manual_swipeTalk_test_old）で以下を行います：
 - マニュアルの更新・修正
 - 動作確認
 - 最終調整
@@ -37,7 +37,7 @@
 
 ## テスト環境URL
 
-https://melbridge-dev.github.io/manual_swipeTalk_test/
+https://melbridge-dev.github.io/manual_swipeTalk_test_old/
 
 ## ファイル構成
 
